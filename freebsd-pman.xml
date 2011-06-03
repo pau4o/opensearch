@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>FreeBSD pman</ShortName>
+	<Description>Search FreeBSD manuals + ports manuals</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">http://www.lv.freebsd.org/favicon.ico</Image>
+	<Url type="text/html" method="GET" template="http://www.freebsd.org/cgi/man.cgi?query={searchTerms}&amp;format=html&amp;manpath=ports"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="http://files.bsdroot.lv/my/opensearch/freebsd-pman.xml"/>
+</OpenSearchDescription>

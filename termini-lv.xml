@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Termini-lv</ShortName>
+	<Description>Lielā terminu vārdnīca</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">http://termini.lv/favicon.ico</Image>
+	<Url type="text/html" method="POST" template="http://termini.lv/index.php">
+		<Param name="terms" value="{searchTerms}"/>
+		<Param name="lang" value="LV"/>
+		<Param name="Mekl%C4%93t" value="Mekl%C4%93t"/>
+	</Url>
+	<Url type="application/opensearchdescription+xml" rel="self" template="http://files.bsdroot.lv/my/opensearch/termini-lv.xml"/>
+</OpenSearchDescription>

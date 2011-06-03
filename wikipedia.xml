@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Wikipedia</ShortName>
+	<Description>Search with Wikipedia</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">http://www.wikipedia.org/favicon.ico</Image>
+	<Url type="text/html" method="GET" template="http://en.wikipedia.org/w/index.php?title=Special%3ASearch&amp;search={searchTerms}&amp;fulltext=Search"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="http://files.bsdroot.lv/my/opensearch/wikipedia.xml"/>
+</OpenSearchDescription>

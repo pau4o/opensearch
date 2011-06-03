@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>FreeBSD PR</ShortName>
+	<Description>Search FreeBSD Problem Report</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">http://www.lv.freebsd.org/favicon.ico</Image>
+	<Url type="text/html" method="GET" template="http://www.freebsd.org/cgi/query-pr-summary.cgi?category=&amp;severity=&amp;priority=&amp;class=&amp;state=&amp;sort=none&amp;text={searchTerms}&amp;responsible=&amp;multitext=&amp;originator=&amp;release="/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="http://files.bsdroot.lv/my/opensearch/freebsd-pr.xml"/>
+</OpenSearchDescription>

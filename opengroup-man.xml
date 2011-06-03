@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>OpenGroup man</ShortName>
+	<Description>Search OpenGroup manuals </Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">http://opengroup.org/favicon.ico</Image>
+	<Url type="text/html" method="POST" template="http://pubs.opengroup.org/cgi/kman.cgi">
+		<Param name="value" value="{searchTerms}"/>
+		<Param name="submit" value="Search.."/>
+	</Url>
+	<Url type="application/opensearchdescription+xml" rel="self" template="http://files.bsdroot.lv/my/opensearch/opengroup-man.xml"/>
+</OpenSearchDescription>
